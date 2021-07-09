@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/biman1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ hr{
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul > a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 23px;
+    margin-top: 10px;
+    
+    
+    
+}
+ul li{
+    list-style-type: none;
+    margin-top: 12px;
+
+}
+
+ li > a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(169, 206, 206, 0.979);
+    padding: 3px 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+li > ul{
+    visibility: hidden;
+    transition: 1s ease-in-out;
+    padding: 3px 6px;
+    margin: 1px 3px;
+}
+
+ul li:hover ul{
+    visibility: visible;
+}
+
+.secound-head h2{
+    margin-top: 200px;
+    margin-left: 30%;
+    color: black;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid indianred;
+}
+.secound-head p{
+margin-left: 30%;
+color: black;
+font-size: 22px;
+letter-spacing: 2px;
+margin-bottom: 10px;
+
+}
+
+.secound-head h3{
+    margin-left: 30%;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.secound-head > a{
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    color: ivory;
+    background-color: red;
+    margin-left: 30%;
+    width: 290px;
+    margin-top: 15px;
+    padding: 3px 7px;
+    border-radius: 16px;
+    transition: 4s;
+
+}
+.secound-head > a:hover{
+    background-color:#B3BAD7 ;
+
+
+}
+/*ends header section*/
+
+/*start main*/
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    margin-top: 6px;
+    background-color: #43423E;
+}
+.card{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top: 40px;
+    background-color: violet;
+    border-radius: 30px;
+    transition: 4s ease-in-out;
+    height: 350px;
+    
+
+}
+
+.card:hover{
+    box-shadow: 10px 10px 30px gray;
+    transform: scale(1.25);
+    z-index: 1;
+  
+}
+.card h3{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+.card a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    margin: 8px 0px;
+    margin-right: 20px;
+    font-size: 40px;
+    transition: 5s;
+}
+
+.card p{
+    text-align: center;
+    padding: 10px 14px;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.card:hover a{
+    color: rgb(156, 60, 60);
+}
+/*ends main head*/
+/*start main-item*/
+.main-item{
+    height: 420px;
+    width: 100%;
+    background-image: url(images/junaid.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    margin-top: 8px;
+    transition: 3s ease-out;
+}
+.main-item:hover{
+    opacity: 1;
+
+}
+.main-item h1{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 35%;
+    color: whitesmoke;
+    font-size: 60px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.main_item_menu-head{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 3%;
+
+}
+.main_item_menu-head h3{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 2%;
+}
+.main_item_menu-head p{
+ font-size: 20px;
+ letter-spacing: 2px;
+ margin-left: 2%;
+ margin-right:3% ;
+ 
+}
+.main-Item-menu1{
+    width: 65%;
+}
+.main-Item-menu2{
+    width: 35%;
+}
+iframe{
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+/*ends main item*/
+/*strt secound item*/
+.secound-item-image{
+    margin-left: 7%;
+    transition: 4s;
+    
+}
+.image1{
+    transition: 4s;
+}.image2{
+    transition: 4s;
+}
+.image3{
+    transition: 4s;
+}
+.image4{
+    transition: 4s;
+}
+.image5{
+    transition: 4s;
+}
+.image6{
+    transition: 4s;
+}
+.secound-item-image .image1:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item-image .image2:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item-image .image3:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item-image .image4:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item-image .image5:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item-image .image6:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40 rgba(0, 0, 0, .5);
+}
+.secound-item h2{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px solid salmon;
+    margin-bottom: 20px;
+    margin-left: 38%;
+    margin-top: 20px;
+}
+/*ends secound item*/
+/*start third item*/
+.torist-guide{
+    background-color: rgba(0, 0, 0, 0.399);
+    height: 450px;
+    width: 100%;
+}
+.torist_guide-fee{
+    display: flex;
+
+
+}
+.torist-guide-fee1{
+    width: 30%;
+    margin-left: 7%;
+    margin-right: 5%;
+    height: 360px;
+    background-color: darkkhaki;
+    transition: 2s;
+    border-radius: 14px;
+}
+.torist-guide-fee1:hover{
+    box-shadow: 15px 15px 5px lightgray;
+
+}
+.torist-guide-fee1 spna{
+    display: block;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.torist-guide h1{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 35%;
+    color: tan;
+    border-bottom: 3px solid cyan;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.torist-guide-fee1 h5{
+    display: inline-block;
+     font-size: 26px;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.399);
+     width: 100%;
+     text-align: center;
+     overflow: hidden;
+     text-transform: uppercase;
+
+}
+.torist-guide-fee1 a{
+    text-decoration: none;
+   color: white;
+   font-size: 25px;
+   margin-left: 30px;
+   background-color: rgba(0, 0, 0, 0.399);
+   padding: 9px;
+   border-radius: 50px;
+   width: 100%;
+
+
+}
+
+.torist-guide-fee1 a del{
+
+    color: red;
+}
+
+.torist-guide-fee1 a ins{
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+/*end third item*/
+/*start forth menu*/
+.forth-menu{
+    background-image: url(images/hasan.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.f-item{
+    margin-top: 25px;
+    margin-left: 35%;
+}
+
+
+.f-item img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.f-item p{
+    font-size: 29px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.299);
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+/*ends forth menu*/
+
+
+
+
+
+
+
+
+/*ends main*/
