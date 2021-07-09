@@ -95,6 +95,7 @@ margin-bottom: 10px;
 }
 .secound-head > a:hover{
     background-color:#B3BAD7 ;
+    color: black;
 
 
 }
@@ -212,7 +213,7 @@ margin-bottom: 10px;
 }
 iframe{
     border-radius: 40px;
-    padding: 10px;
+    padding: 8px 20px;
 }
 
 
@@ -391,12 +392,174 @@ iframe{
     border-radius: 50px;
 }
 /*ends forth menu*/
+/*five menu start*/
+.five-menu-service{
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.399);
+    margin-top: 9px;
 
+}
+.five-menu-service h2{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 30px;
+    color: wheat;
+    letter-spacing: 3px;
+    margin-left: 38%;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+}
+.five-menu{
+    display: flex;
+    width: 100%;
+    
+}
+/*five menu ends*/
+.five-menu1{
+    background-image: url(images/biman1.jpg);
+    background-position: center;
+    width: 25%;
+    height: 260px;
+    margin-left: 5%;
+    margin-top: 40px;
+    padding: 5px 13px;
+    transition: 4s;
+    border-radius: 10px;
+    transition: 4s ease-in-out;
+}
 
+.five-menu1:hover{
+    transform: scale(1.15);
+}
+.five-menu1 a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: wheat;
+    background-color: rgba(129, 37, 37, 0.678);
+    padding: 4px 10px;
+    border-radius: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.five-menu h2{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 30px;
+    color: sandybrown;
+    border-bottom: 2px solid red;
+    margin-left: 20px;
+}
+.five-menu1 p{
+    visibility: hidden;
+    transition: 2s ease-in-out;
+}
+.five-menu1:hover p{
+    visibility: visible;
+    
+    margin-left: 50%;
 
+}
 
+.five-menu2{
+    background-image: url(images/biman.jpg);
+    background-position: center;
+    width: 25%;
+    height: 260px;
+    margin-left: 5%;
+    margin-top: 40px;
+    padding: 5px 13px;
+    transition: 4s;
+    border-radius: 10px;
+    transition: 4s;
+}
 
+.five-menu2:hover{
+    transform: scale(1.15);
+}
 
+.five-menu2 p{
+    visibility: hidden;
+    transition: 2s;
+}
+.five-menu2:hover p{
+    visibility: visible;
+    margin-left: 50%;
+}
 
+.five-menu2 a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: wheat;
+    background-color: rgba(129, 37, 37, 0.678);
+    padding: 4px 10px;
+    border-radius: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
 
+/*start footer*/
+.footer-head{
+    margin-top: 15px;
+height: 400px;
+width: 100%;
+background-color: rgba(104, 88, 88, 0.99)
+
+}
+.footer-head h1{
+    color: wheat;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+.footer-body{
+    display: flex;
+    height: 300px;
+}
+
+.footer-body1{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.footer-body1 img{
+    height: 140px;
+    width: 170px;
+    border-radius: 50%;
+}
+.footer-body1 a{
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    color: wheat;
+    margin-left: 55px;
+}
+.footer-body2{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.footer-body2 img{
+    height: 140px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.footer-body2 a{
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    color: wheat;
+    margin-left: 55px;
+}
+.footer-head h5{
+    margin-left: 20%;
+    border-top: 2px solid black;
+    width: 60%;
+}
 /*ends main*/
